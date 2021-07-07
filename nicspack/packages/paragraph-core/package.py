@@ -16,8 +16,9 @@ class ParagraphCore(CMakePackage):
     version('cmake', branch='cmake')
 
     depends_on('cmake@3.18:', type='build')
+    depends_on('pkg-config', type='build')
 
-    depends_on('abseil-cpp~shared')
+    depends_on('abseil-cpp')
     depends_on('protobuf')
     depends_on('nlohmann-json')
     depends_on('libfactory')
