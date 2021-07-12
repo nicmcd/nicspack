@@ -17,7 +17,7 @@ class ParagraphCreator(CMakePackage):
 
     depends_on('cmake@3.18:', type='build')
 
-    depends_on('abseil-cpp~shared')
+    depends_on('abseil-cpp +shared cxxstd=17')
     depends_on('protobuf')
     depends_on('nlohmann-json')
     depends_on('paragraph-core')

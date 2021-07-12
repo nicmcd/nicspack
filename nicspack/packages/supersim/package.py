@@ -28,7 +28,7 @@ class Supersim(CMakePackage):
     depends_on('libfio')
     depends_on('libsettings')
 
-    depends_on('abseil-cpp~shared')
+    depends_on('abseil-cpp +shared cxxstd=17')
     depends_on('protobuf')
     depends_on('nlohmann-json')
     depends_on('paragraph-core')
