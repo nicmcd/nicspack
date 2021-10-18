@@ -13,6 +13,6 @@ class Libfactory(CMakePackage):
     git = "https://github.com/nicmcd/libfactory.git"
     maintainers = ['nicmcd']
 
-    version('cmake', branch='cmake')
+    version('main', branch='main')
 
     depends_on('cmake@3.18:', type='build')

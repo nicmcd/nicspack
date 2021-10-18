@@ -14,7 +14,7 @@ class Libmut(CMakePackage):
     git = "https://github.com/nicmcd/libmut.git"
     maintainers = ['nicmcd']
 
-    version('cmake', branch='cmake')
+    version('main', branch='main')
 
     depends_on('cmake@3.18:', type='build')
 

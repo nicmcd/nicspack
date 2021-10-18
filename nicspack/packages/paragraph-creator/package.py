@@ -13,7 +13,7 @@ class ParagraphCreator(CMakePackage):
     git = "https://github.com/paragraph-sim/paragraph-creator.git"
     maintainers = ['nicmcd']
 
-    version('cmake', branch='cmake')
+    version('main', branch='main')
 
     depends_on('cmake@3.18:', type='build')
 
